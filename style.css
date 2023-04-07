@@ -1,0 +1,91 @@
+
+body {
+    background-color: #f5f5f5;
+    margin: 0%;
+    padding: 0%;
+    font-family: "Poppins", sans-serif !important;
+  }
+.bg{
+    width: 100%;
+    z-index: 2;
+    position: fixed;
+    background-color: white;
+}
+.nav-link{
+    color: rgb(27, 27, 27) !important;
+}
+.nav-link:hover{
+    color: #56a19f  !important;
+}
+.btn1{
+    background-color: rgb(59, 179, 59) !important;
+    border: none;
+}
+.btn1:hover{
+    background-color: black !important;
+}
+.navbar-toggler-icon{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%285, 182, 0, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+
+}
+.box{
+    background-color: rgb(238, 236, 236) !important;
+    margin-top: 16%;
+    padding: 48px;
+    color:#56a19f;
+}
+.opacity-50{
+    color: #56a19f !important;
+}
+.page-link {
+    color: #56a19f !important;
+    background-color: transparent !important;
+    border: 0;
+}
+.search{
+    margin-top: 55%;
+}
+.borderof{
+    border-color: rgb(5, 5, 5) !important;
+}
+.post{
+    color:#56a19f !important;
+}
+.post:hover{
+    color: black !important;
+}
+.footer {
+    background-color: #3a3a3a;
+}
+option{
+        color: #56a19f !important;
+}
+.lists{
+    color: rgb(212, 212, 212) !important;
+}
+.bg-search{
+    background-color: rgb(27, 27, 27) !important; 
+}
+.bg-darker{
+    background-color: black !important;
+}
+.last:hover{
+    color: palevioletred !important;
+}
+@media only screen and (max-width : 768px) {
+    .btn-d{
+        background-color: transparent !important;
+        border: none;
+        margin-left: -2% !important;
+        color:#3a3a3a !important;
+    }
+    .btn-d:hover{
+        background-color: transparent !important;
+    }
+    .nav-item{
+        border-bottom: 1px solid rgb(202, 200, 200) !important;
+    }
+    .search{
+        margin-top: 0%;
+    }
+}
